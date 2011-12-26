@@ -1,0 +1,18 @@
+Ce plugin sert à gérer les réservations en ligne d'un hôtel.
+
+Installation :
+- glissez le répertoire reservation dans le dossier client/plugins/ de votre Thelia.
+- Activez-le ensuite dans le menu Configuration/Gestion des plugins dans votre interface d'administration.
+- changer l'adresse du site au début du fichier planning.php 
+
+
+Modification en base :
+
+FO :
+
+BO :
+
+Utilisation du planning :
+
+
+
