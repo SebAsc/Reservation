@@ -968,8 +968,8 @@
 							header("Location: index.php");
 							exit;
 						}
-						if($_SESSION['reservation']){
-							header("Location: index.");
+						if(empty($_SESSION['reservation'])){
+							header("Location: index.php");
 						}
 						
 						if(empty($_SESSION['navig']->client->nom) || empty($_SESSION['navig']->client->email) || empty($_SESSION['navig']->client->telfixe)){
